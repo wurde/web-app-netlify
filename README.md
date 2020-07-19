@@ -29,7 +29,7 @@ Example usage within a Terraform configuration:
 module "static-website" {
   source = "github.com/wurde/web-app-netlify"
 
-  dist_dir  = "./public"
+  dist_dir  = "./dist"
   repo_path = "username/reponame"
 }
 ```
