@@ -35,7 +35,8 @@ module "static-website" {
 ```
 
 Next run `terraform apply`. Or automate via CI/CD pipelines
-(GitHub Actions?).
+(GitHub Actions?). Be sure to set the `NETLIFY_TOKEN`
+environment variable.
 
 ## Pricing Estimate
 
